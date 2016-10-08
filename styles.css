@@ -1,18 +1,18 @@
 html {
 }
 body {
-  background-color: rgb(219, 218, 221);
-/*   background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cheap_diagonal_fabric.png"); */
-  font-size: 22px;
-  font-family: 'Lato', sans-serif;
-  font-family: 'PT sans Narrow', sans-serif;
-  width: 100vw;
+  margin: 0;
+  background-color: #9bd3d6;
+  font-family: 'PT Sans Narrow', serif;
+  font-size: 21px;
+  letter-spacing: 1px;
 }
 
 header {
+  position: relative;
   background-color: gray;
   height: 100vh;
-  #margin-top: -20px;
+  width: 100%;
   padding-bottom: 20px;
   /*background-image: url("http://i.imgur.com/tLhJOrE.png");*/
   background-image: url("http://66.media.tumblr.com/54af19212db5e2cce51d031cb32709fd/tumblr_o7l2sq0iSy1qze3hdo1_r2_500.gif");
@@ -37,10 +37,9 @@ header .title p {
 }
 
 header .title .pointer {
-  color: rgb(227, 227, 227);
   position: relative;
   bottom 0;
-  font-size: 3em;
+  font-size: 4em;
   animation-name: bounce;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -48,11 +47,11 @@ header .title .pointer {
 }
 
 @keyframes bounce {
-  from {top: .5em;}
+  from {top: .5em; color: rgb(212, 212, 212)}
   to {top: 1em; color: rgb(121, 120, 124)}
 }
 
-.header.bottom-strip {
+.bottom-strip {
   background-color: rgba(255,255,255,0.13);
   position: absolute;
   bottom: 0;
@@ -61,9 +60,14 @@ header .title .pointer {
   text-align: center;
 }
 
+.bottom-strip a {
+  letter-spacing: 1em;
+}
+
 content p {
   background-color: #f59288;
-  padding: 2em;
+  padding: 1em;
+  margin: 1em;
   border-radius: .5em;
   line-height: 120%;
 }
@@ -112,6 +116,7 @@ img {
   position: relative;
   color: #524747;
   margin-top: 1em;
+  padding: 1em;
 }
 
 .project .heading {
@@ -139,7 +144,11 @@ img {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1em;
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
+}
+
+.project .content h3 {
+  padding-left: 1em;
 }
 
 .project .content .spacer {
@@ -151,8 +160,10 @@ img {
   background-color: #eca169;
   position: absolute;
   bottom: 0;
-  height: 7em;%;
-  width: 100%;
+  left: 1em;
+  right: 1em;
+  height: 7em;
+  /*width: 100%;*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -174,8 +185,14 @@ img {
 footer {
   background-color: rgba(256, 256, 256, 0.2);
   position: absolute;
-  margin-left: -8px;
   padding: .5em;
   width: 100%;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+     /* input desktop only styles below here */
+    header {
+       background-image: url("http://i.imgur.com/NmI3q8D.gif");
+      }
 }
