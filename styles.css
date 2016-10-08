@@ -1,0 +1,181 @@
+html {
+}
+body {
+  background-color: rgb(219, 218, 221);
+/*   background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cheap_diagonal_fabric.png"); */
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'PT sans Narrow', sans-serif;
+  width: 100vw;
+}
+
+header {
+  background-color: gray;
+  height: 100vh;
+  #margin-top: -20px;
+  padding-bottom: 20px;
+  /*background-image: url("http://i.imgur.com/tLhJOrE.png");*/
+  background-image: url("http://66.media.tumblr.com/54af19212db5e2cce51d031cb32709fd/tumblr_o7l2sq0iSy1qze3hdo1_r2_500.gif");
+/*   Sets the image so it only covers the viewable area */
+  background-size: cover;
+/*   Centers the image to the middle of the screen */
+  background-position: center;
+}
+
+header .title {
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+header .title h1 {
+  color: rgb(55, 52, 59);
+}
+
+header .title p {
+  color: rgb(126, 63, 63);
+}
+
+header .title .pointer {
+  color: rgb(227, 227, 227);
+  position: relative;
+  bottom 0;
+  font-size: 3em;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {top: .5em;}
+  to {top: 1em; color: rgb(121, 120, 124)}
+}
+
+.header.bottom-strip {
+  background-color: rgba(255,255,255,0.13);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+
+content p {
+  background-color: #f59288;
+  padding: 2em;
+  border-radius: .5em;
+  line-height: 120%;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+.link {
+  color: yellow;
+  margin-left: 1em;
+  margin-right: 1em;
+  letter-spacing: 0.9px;
+}
+
+.button {
+  color: #DAEDE2;
+  font-family: 'PT sans Narrow', sans-serif;
+  background-color: #2980B9;
+  padding: .5em;
+  border: 1px solid #2C3E50;
+  border-radius: .5em;
+  text-transform: uppercase;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.project {
+  background-color: rgb(255,0,255,1);
+  position: relative;
+  color: #524747;
+  margin-top: 1em;
+}
+
+.project .heading {
+  height: 20%;
+  background-color: #2980B9;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding-top: .7em;
+}
+
+.project .heading h2 {
+  text-align: center;
+  color: #2f3E50;
+}
+
+.project .content {
+  background-color: #dde0ad;
+  width: 100%;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.project .content p {
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.project .content .spacer {
+  display: block;
+  height: 7em;
+}
+
+.project .links {
+  background-color: #eca169;
+  position: absolute;
+  bottom: 0;
+  height: 7em;%;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.project .links p {
+  padding-left: 1em;
+}
+
+.project .links a {
+  padding-left: 1em;
+  text-decoration: none;
+}
+
+.project  i {
+  position: relative;
+  top: 5px;
+}
+
+footer {
+  background-color: rgba(256, 256, 256, 0.2);
+  position: absolute;
+  margin-left: -8px;
+  padding: .5em;
+  width: 100%;
+  text-align: center;
+}
