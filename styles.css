@@ -224,4 +224,8 @@ footer {
     header {
        /*background-image: url("http://i.imgur.com/NmI3q8D.gif");*/
       }
+
+    header img {
+      width: 20%;
+    }
 }
