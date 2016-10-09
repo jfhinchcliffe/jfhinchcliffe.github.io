@@ -2,11 +2,19 @@ html {
 }
 body {
   margin: 0;
-  background-color: #95f9a5;
+  background-color: #F2CB05;
   font-family: 'PT Sans Narrow', serif;
   font-size: 21px;
   letter-spacing: 1px;
   width: 100%;
+}
+
+#projects {
+  display: none;
+}
+
+#contact {
+  display: none;
 }
 
 .spacer {
@@ -16,7 +24,7 @@ body {
 
 header {
   /*position: relative;*/
-  background-color: gray;
+  background-color: #1f4f8e;
   /*height: 100vh;*/
   /*width: 100%;*/
   /*background-image: url("http://i.imgur.com/tLhJOrE.png");*/
@@ -24,7 +32,7 @@ header {
 /*   Sets the image so it only covers the viewable area */
   /*background-size: cover;*/
 /*   Centers the image to the middle of the screen */
-  ÷
+
 }
 
 header img {
@@ -39,29 +47,57 @@ header .title {
 }
 
 header .title h1 {
-  color: rgb(55, 52, 59);
+  color: #b8c6c9;
 }
 
 header .title h3 {
-  color: rgb(126, 63, 63);
+  color: #e2cfcf;
   padding-bottom: 1.5em;
   margin: 0;
+  text-shadow: 2px 2px black;
 }
 
 .contact-strip {
-  background-color: rgba(154, 124, 124, 0.29);
+  background-color: rgba(48, 63, 117, 0.29);
   text-align: center;
   letter-spacing: .5em;
   padding: 1em;
 }
 
-.text-content {
-  background-color: #f59288;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin: 1em;
+.contact-strip a {
+  color: #be9109;
+}
+
+.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e3569;
+}
+
+.menu-bar li {
+  float: left;
+  width: 33%;
+}
+
+.menu-bar li a {
+  text-transform: uppercase;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+    background-color: #be9109;
+}
+
+p {
+  background-color: rgb(240, 249, 137);
+  padding: .5em;
+  margin: .5em;
   border-radius: .5em;
 }
 
@@ -182,10 +218,6 @@ footer {
   width: 100%;
   text-align: center;
 }
-
-/* TESTING TOGGLE OPEN CLOSED SHIT */
-
-/* end of toggle opend closed shit*/
 
 @media only screen and (min-width: 768px) {
      /* input desktop only styles below here */
