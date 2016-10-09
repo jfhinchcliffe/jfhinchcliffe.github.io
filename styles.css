@@ -190,6 +190,6 @@ footer {
 @media only screen and (min-width: 768px) {
      /* input desktop only styles below here */
     header {
-       background-image: url("http://i.imgur.com/NmI3q8D.gif");
+       /*background-image: url("http://i.imgur.com/NmI3q8D.gif");*/
       }
 }
