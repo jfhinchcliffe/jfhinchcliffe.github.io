@@ -1,17 +1,47 @@
 # Project 1 - Portfolio Site
 ## Jason Hinchcliffe
-[Project Page ](https://github.com/coder-factory-academy/student-schedule/blob/master/term-1/week-5/Project-Portfolio.md)
+[CoderFactoryAcademy Project Page ](https://github.com/coder-factory-academy/student-schedule/blob/master/term-1/week-5/Project-Portfolio.md)
 
 ## Deliverables
 
 ### Design Documentation
 
 1. Demonstrate your understanding of your site's audience
-1. Demonstrate the design decisions made
-2. Demonstrate that you considered usability heuristics
-3. Any wireframes
-3. Style guide
-4. Personal Logo
+
+The site's primary audience will (hopefully) be technically minded developers intent on giving me a job. These people would be time-poor, probably browsing on a mobile device, and hyper-critical of any fundamental errors in the page.
+
+2. Demonstrate the design decisions made
+
+I've decided to keep it simple - an introduction page, a projects page, and a contact page. As the primary objective is to have the audience contact me, the primary initial focus of each page is a circular image of myself, and another large background image with links to my email, LinkedIn, Twitter and Github.  
+
+The site was designed 'mobile first' - with all styles optimised for viewing on a mobile device. This includes:
+
+* Large font size
+* Clear fonts
+* Large, clear buttons and links
+
+The desktop design resizes the headshot up the top of the page to be a bit smaller, and also extends and centers the content within the body and stretches it out to a nice 550px width.
+
+I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
+
+3. Demonstrate that you considered usability heuristics
+
+* I've kept things simple / minimal
+* Users are informed of their place within the site by setting the top nav bar to "active" and changing the colour to red when they are on the page. The pages also have a heading.
+* Styling is kept consistent across all pages - the paragraphs are all similarly coloured / styled, as are the headings and subheadings.
+
+4. Any wireframes
+
+
+
+5. Style guide
+
+
+
+6. Personal Logo
+
+I tried sketching a few up, but they all looked really ordinary. 
+
 
 ### Compliant website using HTML and CSS
 
