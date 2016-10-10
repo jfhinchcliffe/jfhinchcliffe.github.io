@@ -23,18 +23,9 @@ body {
 }
 
 header {
-  /*position: relative;*/
   background-color: #071e3d;
   background-image: url("images/starry-background.jpeg");
   background-size: auto;
-  /*height: 100vh;*/
-  /*width: 100%;*/
-  /*background-image: url("http://i.imgur.com/tLhJOrE.png");*/
-  /*background-image: url("http://66.media.tumblr.com/54af19212db5e2cce51d031cb32709fd/tumblr_o7l2sq0iSy1qze3hdo1_r2_500.gif");*/
-/*   Sets the image so it only covers the viewable area */
-  /*background-size: cover;*/
-/*   Centers the image to the middle of the screen */
-
 }
 
 header img {
@@ -117,6 +108,11 @@ a {
   color: rgb(185, 31, 54)
 }
 
+.info-text {
+  padding: 1em;
+  margin: 0;
+}
+
 .contact-strip a {
   color: #d4d4d4;
 }
@@ -135,17 +131,6 @@ a:visited {
   letter-spacing: 0.9px;
 }
 
-.button {
-  color: #DAEDE2;
-  font-family: 'PT sans Narrow', sans-serif;
-  background-color: #2980B9;
-  padding: .5em;
-  border: 1px solid #2C3E50;
-  border-radius: .5em;
-  text-transform: uppercase;
-
-}
-
 img {
   display: block;
   margin-left: auto;
@@ -153,103 +138,37 @@ img {
   padding: 1em;
 }
 
-.project {
-  background-color: rgb(255,0,255,1);
-  position: relative;
-  color: #524747;
-  padding: 1em;
-}
-
-.project .heading {
-  height: 20%;
-  background-color: #2980B9;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-  padding-top: .7em;
-}
-
-.project .heading h2 {
-  text-align: center;
-  color: #2f3E50;
-}
-
-.project .content {
-  background-color: #dde0ad;
-  width: 100%;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-}
-
-.project .content p {
-  margin: 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  /*padding-bottom: 1em;*/
-}
-
-.project .content h3 {
-  padding-left: 1em;
-}
-
-.project .content .spacer {
-  display: block;
-  height: 7em;
-}
-
-.project .links {
-  background-color: #eca169;
-  position: absolute;
-  bottom: 0;
-  left: 1em;
-  right: 1em;
-  height: 7em;
-  /*width: 100%;*/
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.project .links p {
-  padding-left: 1em;
-}
-
-.project .links a {
-  padding-left: 1em;
-  text-decoration: none;
-}
-
-.project  i {
-  position: relative;
-  top: 5px;
-}
-
 .section-head {
-  color: rgb(208, 27, 27);
+  color: rgb(205, 11, 11);
   font-size: 35px;
   text-align: center;
   font-family: "Amatic SC";
   margin: 5px;
 }
 
-.section-head a {
-  color: rgb(144, 25, 25);
+.content-pane i {
+  color: rgb(60, 60, 60);
 }
 
 footer {
   background-color: rgba(256, 256, 256, 0.2);
   position: absolute;
-  padding: .5em;
+  padding-top: .7em;
   width: 100%;
   text-align: center;
 }
 
-footer .code-by-hand {
-  font-size: 10px;
+.button {
+  border-radius: .2em;
+  display: block;
+  text-decoration: underline;
 }
 
-footer .footer-name {
+footer .code-by-hand {
   font-size: 12px;
 }
+
+
 
 @media only screen and (min-width: 768px) {
      /* input desktop only styles below here */
@@ -269,5 +188,22 @@ footer .footer-name {
 
     .section-head {
       font-size: 45px;
+    }
+
+    a {
+      transition: color .3s linear;
+    }
+
+    .contact-strip a:hover {
+      color: rgb(208, 27, 27);
+    }
+
+    .menu-bar a:hover {
+      color: rgb(208, 27, 27);
+    }
+
+    .project {
+      width: 300px;
+      font-size: 18px;
     }
 }

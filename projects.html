@@ -5,15 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
-  <script src="javascript.js"></script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Arimo|Lato|Noto+Sans|Open+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Roboto|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Amatic+SC|Architects+Daughter" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
   <title>Jason Hinchcliffe's Portfolio</title>
+  <ul class="menu-bar">
+    <li><a href="index.html">About Me</a></li>
+    <li><a class ="active" href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
   <header>
     <div class="title">
       <div class="spacer"></div>
@@ -30,119 +34,64 @@
       <a class="social-button" href="https://github.com/jfhinchcliffe" target="_blank"><i class="fa fa-3x fa-github-square" aria-hidden="true"></i></a>
     </div>
   </header>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos blanditiis, voluptatibus. Nam dicta quaerat architecto sint eaque error rem! Possimus cum atque debitis vero esse vel iusto distinctio repellendus quibusdam.
-  </p>
-  <ul>
-    <li><a href="index.html">About Me</a></li>
-    <li></li>
-    <li></li>
-  </ul>
-
-  <!-- <h2>About Me</h2>
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis nostrum ab quisquam laboriosam. Optio reiciendis quibusdam earum rerum, error modi a exercitationem quis aliquam, natus unde. Nisi, debitis, expedita?
-  </p>
 
   <h2>Projects</h2>
-
-  <div class="project">
-    <div class="heading">
-      <h2>patstats
-        <i class="devicon-ruby-plain original"></i>
-        <i class="devicon-rails-plain original"></i>
-        <i class="devicon-heroku-original original"></i>
-      </h2>
-    </div>
-    <div class="content">
-      <p>I created this app to warn our team if something was wrong with real time information on the network... and added the weather info so we could see if a jacket was required when getting lunch :) </p>
-      <h3>Features</h3>
-      <ul>
-        <li>Devise for authentication</li>
-        <li>Uses PTV API for real-time public transport information</li>
-        <li>Forecast.io gem to get weather conditions</li>
-        <li>Allows user to create / update / destroy checked stops.</li>
-        <li>Checks selected stops, and returns the percentage responding with real time data</li>
-        <li>Outputs real time status and weather to the team Geckoboard via JSON</li>
-      </ul>
-      <div class="spacer"></div>
-    </div>
-    <div class="links">
-      <p>
-        <i class="fa fa-external-link-square fa-2x" aria-hidden="true"></i>
-        <a href="https://calm-falls-50903.herokuapp.com/" target="_blank">External Site</a>
-      </p>
-      <p>
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        <a href="https://github.com/jfhinchcliffe/patstats" target="_blank">Project on Github</a>
-      </p>
-    </div>
+    <p class="info-text">
+      A selection of creations that I'm most proud of (thus far!)
+    </p>
+  <h3 class="section-head">PatStats
+    <i class="devicon-ruby-plain original"></i>
+    <i class="devicon-rails-plain original"></i>
+    <i class="devicon-heroku-original original"></i>
+  </h3>
+  <div class="content-pane">
+    <p>
+      A Ruby on Rails app that queries the Public Transport Victoria API and returns the percentage of selected stops returning a real time value for display on a team Geckoboard. Also displays the weather at the office address.
+    </p>
+    <p>
+      <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i>
+      <a href="https://calm-falls-50903.herokuapp.com/" target="_blank">External Site</a>
+    </p>
+    <p>
+      <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+      <a href="https://github.com/jfhinchcliffe/patstats" target="_blank">Project on Github</a>
+    </p>
   </div>
 
-  <div class="project">
-    <div class="heading">
-      <h2>fantasy_football_app
-        <i class="devicon-ruby-plain original"></i>
-      </h2>
-    </div>
-    <div class="content">
-      <p>This was created in week 3 of my Coder Factory Academy course. The app allows you to create teams, assign them stats (attack, defense etc.) and then simulate a game between teams.</p>
-      <h3>Features</h3>
-      <ul>
-        <li>Uses random numbers to simulate games</li>
-        <li>Reads and writes from CSV</li>
-        <li>Separate Game and Team classes</li>
-        <li>Rudimentary testing with RSpec</li>
-      </ul>
-      <div class="spacer"></div>
-    </div>
-    <div class="links">
-      <p>
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        <a href="https://github.com/jfhinchcliffe/fantasy_football_app" target="_blank">Project on Github</a>
-      </p>
-    </div>
+  <h3 class="section-head">Fantasy Football
+    <i class="devicon-ruby-plain original"></i>
+  </h3>
+  <div class="content-pane">
+    <p>
+      A command line app written in Ruby that allows you to create football teams and simulate games between them.
+    </p>
+    <p>
+      <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+      <a href="https://github.com/jfhinchcliffe/fantasy_football_app" target="_blank">Project on Github</a>
+    </p>
   </div>
 
-  <div class="project">
-    <div class="heading">
-      <h2>ndis_plus
-        <i class="devicon-ruby-plain original"></i>
-        <i class="devicon-rails-plain original"></i>
-        <i class="devicon-heroku-original original"></i>
-      </h2>
-    </div>
-    <div class="content">
-      <p>Proof of concept for a Code for Australia group project. Displays NDIS providers on a searchable map and was intended to illustrate how users and providers would be better serviced with richer data.</p>
-      <h3>Features</h3>
-      <ul>
-        <li>Devise for authentication</li>
-        <li>GMaps4rails gem for geocoding</li>
-        <li>Outputs to Google Maps</li>
-      </ul>
-      <div class="spacer"></div>
-    </div>
-    <div class="links">
-      <p>
-        <i class="fa fa-external-link-square fa-2x" aria-hidden="true"></i>
-        <a href="https://pure-sierra-23018.herokuapp.com/pages/maptest" target="_blank">External Site</a>
-      </p>
-      <p>
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        <a href="https://github.com/jfhinchcliffe/ndis_plus" target="_blank">Project on Github</a>
-      </p>
-    </div>
+  <h3 class="section-head">NDIS Plus
+    <i class="devicon-ruby-plain original"></i>
+    <i class="devicon-rails-plain original"></i>
+    <i class="devicon-heroku-original original"></i>
+  </h3>
+  <div class="content-pane">
+    <p>
+      A proof-of-concept Ruby on Rails app quickly created during a Code for Australia course. Geocodes the addresses of NDIS providers and displays them on Google Maps.
+    </p>
+    <p>
+      <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i>
+      <a href="https://pure-sierra-23018.herokuapp.com/pages/maptest" target="_blank">External Site</a>
+    </p>
+    <p>
+      <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+      <a href="https://github.com/jfhinchcliffe/ndis_plus" target="_blank">Project on Github</a>
+    </p>
   </div>
-
-  <p>
-    <a href="#" class="button">This is a button link</a>
-  </p>
-  <p>
-    <a href="#" class="link">This is a regular link</a>
-  </p>
-  <img src="http://placehold.it/350x200"> -->
+  <h3 class="section-head button"><a href="http://www.github.com/jfhinchcliffe">Further examples on GitHub ></a></h3>
+  <h3 class="section-head button"><a href="contact.html">Get in touch! ></a></h3>
   <footer>
-    Footer
+    <p class="code-by-hand">Coded by <i class="fa fa-hand-paper-o" aria-hidden="true"></i><br /> Jason Hinchcliffe, October 2016</p>
   </footer>
 </body>
