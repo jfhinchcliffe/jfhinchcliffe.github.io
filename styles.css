@@ -2,7 +2,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #F2CB05;
+  background-color: rgb(210, 212, 217);
   font-family: 'PT Sans Narrow', serif;
   font-size: 21px;
   letter-spacing: 1px;
@@ -24,7 +24,9 @@ body {
 
 header {
   /*position: relative;*/
-  background-color: #1f4f8e;
+  background-color: #071e3d;
+  background-image: url("images/starry-background.jpeg");
+  background-size: auto;
   /*height: 100vh;*/
   /*width: 100%;*/
   /*background-image: url("http://i.imgur.com/tLhJOrE.png");*/
@@ -47,7 +49,10 @@ header .title {
 }
 
 header .title h1 {
-  color: #b8c6c9;
+  color: #dcedf1;
+  font-family: 'Amatic SC';
+  letter-spacing: 3px;
+  text-shadow: 1px 1px orange;
 }
 
 header .title h3 {
@@ -65,7 +70,7 @@ header .title h3 {
 }
 
 .contact-strip a {
-  color: #be9109;
+  color: #f94d4d;
 }
 
 .menu-bar {
@@ -73,7 +78,7 @@ header .title h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0e3569;
+  background-color: #251d3e;
 }
 
 .menu-bar li {
@@ -84,18 +89,18 @@ header .title h3 {
 .menu-bar li a {
   text-transform: uppercase;
   display: block;
-  color: white;
+  color: rgb(196, 220, 224);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .active {
-    background-color: #be9109;
+    background-color: #cb2828;
 }
 
-p {
-  background-color: rgb(240, 249, 137);
+.content-pane{
+  background-color: rgb(245, 245, 241);
   padding: .5em;
   margin: .5em;
   border-radius: .5em;
@@ -104,16 +109,23 @@ p {
 h2 {
   text-align: center;
   font-weight: bolder;
-  font-family: 'Lato', sans-serif;
+  margin: 5px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(196, 68, 87)
+  color: rgb(185, 31, 54)
+}
+
+.contact-strip a {
+  color: #d4d4d4;
+}
+.contact-strip a:visited {
+  color: #d4d4d4;
 }
 
 a:visited {
-  color: rgb(98, 27, 37);
+  color: rgb(194, 52, 72);
 }
 
 .link {
@@ -211,12 +223,32 @@ img {
   top: 5px;
 }
 
+.section-head {
+  color: rgb(208, 27, 27);
+  font-size: 35px;
+  text-align: center;
+  font-family: "Amatic SC";
+  margin: 5px;
+}
+
+.section-head a {
+  color: rgb(144, 25, 25);
+}
+
 footer {
   background-color: rgba(256, 256, 256, 0.2);
   position: absolute;
   padding: .5em;
   width: 100%;
   text-align: center;
+}
+
+footer .code-by-hand {
+  font-size: 10px;
+}
+
+footer .footer-name {
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -227,5 +259,15 @@ footer {
 
     header img {
       width: 20%;
+    }
+
+    .content-pane {
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-head {
+      font-size: 45px;
     }
 }
