@@ -40,7 +40,7 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 
 6. Personal Logo
 
-I tried sketching a few up, but they all looked really ordinary. 
+I tried sketching a few up, but they all looked really ordinary, so I decided not to include a logo.
 
 
 ### Compliant website using HTML and CSS
@@ -75,5 +75,9 @@ The presentation should include:
 
 1. A Walk-through of your design decisions and documents
 2. A review of your build process - challenges, favourite parts
+
+Initially I wanted to make a one-page document, but it was about 9 miles long on mobile.
+I tried to keep my one-page design alive by using tabs for the content, but after messing around with tabs for a while I realised that maybe I should just put it into multiple pages.
+
 3. A walk-through of your live site and pointing out its  features
 4. Answer any questions from students or teachers.

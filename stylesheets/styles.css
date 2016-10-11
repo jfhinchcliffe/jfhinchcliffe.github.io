@@ -23,12 +23,15 @@ body {
 }
 
 header {
-  background-color: #071e3d;
-  background-image: url("../images/starry-background.jpeg");
-  background-size: auto;
+  background-color: #2f2f2f;
+  background-image: url("../images/city-background-10-mobile.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
 
-header img {
+.portrait-pic {
+  margin-top: 1em;
   border-radius: 100%;
   border: 1px solid black;
   padding: 0px;
@@ -54,8 +57,12 @@ header .title h3 {
 }
 
 .contact-strip {
-  background-color: rgba(48, 63, 117, 0.29);
+  background-color: rgba(32, 33, 33, 0.8);
   text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
   letter-spacing: .5em;
   padding: 1em;
 }
@@ -69,12 +76,12 @@ header .title h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #251d3e;
+  background-color: #1b1b1b;
 }
 
 .menu-bar li {
   float: left;
-  width: 33%;
+  width: 50%;
 }
 
 .menu-bar li a {
@@ -174,7 +181,7 @@ footer .code-by-hand {
 @media only screen and (min-width: 768px) {
      /* input desktop only styles below here */
     header {
-       /*background-image: url("http://i.imgur.com/NmI3q8D.gif");*/
+       background-image: url("../images/city-background-10.jpeg");
       }
 
     header img {
@@ -189,6 +196,14 @@ footer .code-by-hand {
 
     .section-head {
       font-size: 45px;
+    }
+
+    header .title h1 {
+      font-size: 50px;
+    }
+
+    .portrait-pic {
+      width: 10em;
     }
 
     a {
