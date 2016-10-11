@@ -178,6 +178,19 @@ footer .code-by-hand {
 }
 
 
+/* No greater than 900px, no less than 400px */
+@media (max-height:470px) {
+
+
+
+    header .spacer {
+      height: 1px;
+    }
+    header .title h3 {
+      display: none;
+  }​
+
+}
 
 @media only screen and (min-width: 768px) {
      /* input desktop only styles below here */
