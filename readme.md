@@ -12,31 +12,60 @@ The site's primary audience will (hopefully) be technically minded developers in
 
 2. Demonstrate the design decisions made
 
-I've decided to keep it simple - an introduction page, a projects page, and a contact page. As the primary objective is to have the audience contact me, the primary initial focus of each page is a circular image of myself, and another large background image with links to my email, LinkedIn, Twitter and Github.  
+I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github.  
 
 The site was designed 'mobile first' - with all styles optimised for viewing on a mobile device. This includes:
 
 * Large font size
 * Clear fonts
 * Large, clear buttons and links
+* Customisation for portrait and landscape view on mobile devices
 
-The desktop design resizes the headshot up the top of the page to be a bit smaller, and also extends and centers the content within the body and stretches it out to a nice 550px width.
+The desktop design takes advantage of the extra space, and also extends and centers the content within the body and stretches it out to a nice 600px width.
 
 I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 
 3. Demonstrate that you considered usability heuristics
 
-* I've kept things simple / minimal
+* I've kept things simple / minimal. According to our guest speaker, people won't spend much time on this site, so it's best to keep it sharp.
 * Users are informed of their place within the site by setting the top nav bar to "active" and changing the colour to red when they are on the page. The pages also have a heading.
 * Styling is kept consistent across all pages - the paragraphs are all similarly coloured / styled, as are the headings and subheadings.
 
 4. Any wireframes
 
+Initial Design
+![alt text](https:jfhinchcliffe.github.io/images/wireframe1.jpg")
 
+Refined Design
+![alt text](https:jfhinchcliffe.github.io/images/wireframe1.jpg")
 
 5. Style guide
 
+Primary Colours: Dark Grey and Red
+Primary Font: PT Sans Narrow
+Primary Heading Font: Amatic SC
 
+## Header Text
+color: #dcedf1;
+font-family: 'Amatic SC';
+letter-spacing: 3px;
+text-shadow: 1px 1px orange;
+
+## Header H3 Text:
+'PT Sans Narrow', serif;
+
+## Body Text:
+'PT Sans Narrow', serif;
+
+## Subheadings
+Amatic SP
+colour cd0b0b
+
+## Body Background:
+colour d2d4d9
+
+## Content background
+colour f5f5f1
 
 6. Personal Logo
 
