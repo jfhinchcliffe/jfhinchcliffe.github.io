@@ -34,10 +34,10 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 4. Any wireframes
 
 Initial Design
-![alt text](https:jfhinchcliffe.github.io/images/wireframe1.jpg")
+![alt text]("https:jfhinchcliffe.github.io/images/wireframe1.jpg")
 
 Refined Design
-![alt text](https:jfhinchcliffe.github.io/images/wireframe1.jpg")
+![alt text]("https:jfhinchcliffe.github.io/images/wireframe1.jpg")
 
 5. Style guide
 
@@ -94,7 +94,6 @@ Demonstrate knowledge of HTML and CSS:
 6. Consistent use of fonts, colours
 7. Navigation
 8. Optimised images
-
 
 ### Presentation
 
