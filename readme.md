@@ -34,11 +34,11 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 4. Any wireframes
 
 Initial Design
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
+![alt text](https://github.com/jfhinchcliffe/jfhinchcliffe.github.io/blob/master/images/wireframe1.JPG)
 
 Refined Design
-![alt text](https://github.com/jfhinchcliffe/jfhinchcliffe.github.io/blob/master/images/wireframe1.JPG)
+
 ![alt text](https://github.com/jfhinchcliffe/jfhinchcliffe.github.io/blob/master/images/wireframe2.JPG)
 
 5. Style guide
