@@ -34,10 +34,10 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 4. Any wireframes
 
 Initial Design
-![alt text]("https:jfhinchcliffe.github.io/images/wireframe1.jpg")
+![alt text]("jfhinchcliffe.github.io/images/wireframe1.JPG")
 
 Refined Design
-![alt text]("https:jfhinchcliffe.github.io/images/wireframe1.jpg")
+![alt text]("jfhinchcliffe.github.io/images/wireframe2.JPG")
 
 5. Style guide
 
