@@ -37,6 +37,7 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 - hover effect for the navbar and social media buttons
 - removes content to display better on iPhone 5 landscape view
 - animated gif
+- appropriately sized image loaded for mobile display
 
 ### Demonstrate that you considered usability heuristics
 
