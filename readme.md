@@ -20,7 +20,7 @@ The site's primary audience will (hopefully) be technically minded developers in
 
 ### Demonstrate the design decisions made
 
-I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github.  
+I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github. I used FontAwesome to display consistent and clear icons for Twitter, Linkedin and Github, and used DevIcons to display icons for products such as Heroku, Ruby and Rails. I figure that these well-known icons would get information across visually without the audience having to read. 
 
 The site was designed 'mobile first' - with all styles optimised for viewing on a mobile device. This includes:
 
