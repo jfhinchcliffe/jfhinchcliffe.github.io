@@ -2,25 +2,25 @@
 ## Jason Hinchcliffe
 [Hosted at jfhinchcliffe.github.io](https://jfhinchcliffe.github.io/)
 
-### Design Documentation
+# Design Documentation
 
-#Page Aims
+## Pages
 
-## About Me page
-This is the initial landing page. As I figure that the people checking this page will be trying to figure out if I'm all mouth and no trousers, I've included prominent links to my Twitter, LinkedIn and Github. I figure that websites differ, however these sites offer a snapshot of my personality and experience in a consistent manner. If all my site does is point prospective employers to these networks, then I'm fine with that. 
+### About Me page
+This is the initial landing page. As I figure that the people checking this page will be trying to figure out if I'm all mouth and no trousers, I've included prominent links to my Twitter, LinkedIn and Github. I figure that websites differ, however these sites offer a snapshot of my personality and experience in a consistent manner. If all my site does is point prospective employers to these networks, then I'm fine with that.
 The remainder of the page is an informal introduction to myself and some information about what I'm doing any why. I'm trying to keep it informal as I'd like to work with an employer that jibes with my personality.
 
-## Projects page
+### Projects page
 This is a simple list of projects that I've completed and hosted on Github. Each item contains a brief description of the functionality and icons which show the tech used to create them. At a glance, a developer would get an appreciation for what tech I'm comfortable with.
 
-# About the site
+## About the site
 ### Demonstrate your understanding of your site's audience
 
 The site's primary audience will (hopefully) be technically minded developers intent on giving me a job. These people would be time-poor, probably browsing on a mobile device, and hyper-critical of any fundamental errors in the page.
 
 ### Demonstrate the design decisions made
 
-I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github. I used FontAwesome to display consistent and clear icons for Twitter, Linkedin and Github, and used DevIcons to display icons for products such as Heroku, Ruby and Rails. I figure that these well-known icons would get information across visually without the audience having to read. 
+I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github. I used FontAwesome to display consistent and clear icons for Twitter, Linkedin and Github, and used DevIcons to display icons for products such as Heroku, Ruby and Rails. I figure that these well-known icons would get information across visually without the audience having to read.
 
 The site was designed 'mobile first' - with all styles optimised for viewing on a mobile device. This includes:
 
