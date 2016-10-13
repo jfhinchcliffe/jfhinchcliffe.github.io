@@ -14,11 +14,11 @@ The remainder of the page is an informal introduction to myself and some informa
 This is a simple list of projects that I've completed and hosted on Github. Each item contains a brief description of the functionality and icons which show the tech used to create them. At a glance, a developer would get an appreciation for what tech I'm comfortable with.
 
 # About the site
-* **Demonstrate your understanding of your site's audience**
+### Demonstrate your understanding of your site's audience
 
 The site's primary audience will (hopefully) be technically minded developers intent on giving me a job. These people would be time-poor, probably browsing on a mobile device, and hyper-critical of any fundamental errors in the page.
 
-* **Demonstrate the design decisions made**
+### Demonstrate the design decisions made
 
 I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github.  
 
@@ -33,18 +33,19 @@ The desktop design takes advantage of the extra space, and also extends and cent
 
 I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 
-## Little Touches
+### Little Touches
 - hover effect for the navbar and social media buttons
 - removes content to display better on iPhone 5 landscape view
 - animated gif
 
-* **Demonstrate that you considered usability heuristics**
+### Demonstrate that you considered usability heuristics
 
-* I've kept things simple / minimal. According to our guest speaker, people won't spend much time on this site, so it's best to keep it sharp.
-* Users are informed of their place within the site by setting the top nav bar to "active" and changing the colour to red when they are on the page. The pages also have a heading.
-* Styling is kept consistent across all pages - the paragraphs are all similarly coloured / styled, as are the headings and subheadings.
+- I've kept things simple / minimal. According to our guest speaker, people won't spend much time on this site, so it's best to keep it sharp.
+- Users are informed of their place within the site by setting the top nav bar to "active" and changing the colour to red when they are on the page. The pages also have a heading.
+- Styling is kept consistent across all pages - the paragraphs are all similarly coloured / styled, as are the headings and subheadings.
 
-* **Any wireframes**
+
+##Any wireframes
 
 Initial Design
 
@@ -54,40 +55,40 @@ Refined Design
 
 ![alt text](https://github.com/jfhinchcliffe/jfhinchcliffe.github.io/blob/master/images/wireframe2.JPG)
 
-* **Style guide**
+##Style guide
 
-## Other Styles
+### Overall Styles
 Primary Colours: Dark Grey and Red
 Primary Font: PT Sans Narrow
 Primary Heading Font: Amatic SC
 
-## Header Text
+### Header Text
 color: #dcedf1;
 font-family: 'Amatic SC';
 letter-spacing: 3px;
 text-shadow: 1px 1px orange;
 
-## Header H3 Text:
+### Header H3 Text:
 'PT Sans Narrow', serif;
 
-## Body Text:
+### Body Text:
 'PT Sans Narrow', serif;
 
-## Subheadings
+### Subheadings
 Amatic SP
 colour cd0b0b
 
-## Body Background:
+### Body Background:
 colour d2d4d9
 
-## Content background
+### Content background
 colour f5f5f1
 
-* **Personal Logo**
+## Personal Logo
 
 I tried sketching a few up, but they all looked really ordinary, so I decided not to include a logo.
 
-### Compliant website using HTML and CSS
+## Compliant website using HTML and CSS
 
 Demonstrate knowledge of HTML and CSS:
 
@@ -99,7 +100,7 @@ Demonstrate knowledge of HTML and CSS:
 6. Contains a robots.txt
 7. Includes favicons
 
-### Published website
+## Published website
 
 1. Website is published on the web
 2. Contains all required information (listed above)
@@ -110,7 +111,7 @@ Demonstrate knowledge of HTML and CSS:
 7. Navigation
 8. Optimised images
 
-### Presentation
+## Presentation
 
 You are to deliver a 5 minute presentation to the class.
 
