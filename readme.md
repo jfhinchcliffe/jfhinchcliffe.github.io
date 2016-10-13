@@ -1,16 +1,24 @@
 # Project 1 - Portfolio Site
 ## Jason Hinchcliffe
-[CoderFactoryAcademy Project Page ](https://github.com/coder-factory-academy/student-schedule/blob/master/term-1/week-5/Project-Portfolio.md)
-
-## Deliverables
+[Hosted at jfhinchcliffe.github.io](https://jfhinchcliffe.github.io/)
 
 ### Design Documentation
 
-1. Demonstrate your understanding of your site's audience
+#Page Aims
+
+## About Me page
+This is the initial landing page. As I figure that the people checking this page will be trying to figure out if I'm all mouth and no trousers, I've included prominent links to my Twitter, LinkedIn and Github. I figure that websites differ, however these sites offer a snapshot of my personality and experience in a consistent manner. If all my site does is point prospective employers to these networks, then I'm fine with that. 
+The remainder of the page is an informal introduction to myself and some information about what I'm doing any why. I'm trying to keep it informal as I'd like to work with an employer that jibes with my personality.
+
+## Projects page
+This is a simple list of projects that I've completed and hosted on Github. Each item contains a brief description of the functionality and icons which show the tech used to create them. At a glance, a developer would get an appreciation for what tech I'm comfortable with.
+
+# About the site
+1. **Demonstrate your understanding of your site's audience**
 
 The site's primary audience will (hopefully) be technically minded developers intent on giving me a job. These people would be time-poor, probably browsing on a mobile device, and hyper-critical of any fundamental errors in the page.
 
-2. Demonstrate the design decisions made
+2. **Demonstrate the design decisions made**
 
 I've decided to keep it simple - an introduction page and a project page. As the primary objective is to have the audience contact me, the initial focus of each page has links to my LinkedIn, Twitter and Github.  
 
@@ -25,13 +33,18 @@ The desktop design takes advantage of the extra space, and also extends and cent
 
 I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 
-3. Demonstrate that you considered usability heuristics
+## Little Touches
+- hover effect for the navbar and social media buttons
+- removes content to display better on iPhone 5 landscape view
+- animated gif
+
+3. **Demonstrate that you considered usability heuristics**
 
 * I've kept things simple / minimal. According to our guest speaker, people won't spend much time on this site, so it's best to keep it sharp.
 * Users are informed of their place within the site by setting the top nav bar to "active" and changing the colour to red when they are on the page. The pages also have a heading.
 * Styling is kept consistent across all pages - the paragraphs are all similarly coloured / styled, as are the headings and subheadings.
 
-4. Any wireframes
+4. **Any wireframes**
 
 Initial Design
 
@@ -41,8 +54,9 @@ Refined Design
 
 ![alt text](https://github.com/jfhinchcliffe/jfhinchcliffe.github.io/blob/master/images/wireframe2.JPG)
 
-5. Style guide
+5. **Style guide**
 
+## Other Styles
 Primary Colours: Dark Grey and Red
 Primary Font: PT Sans Narrow
 Primary Heading Font: Amatic SC
@@ -69,10 +83,9 @@ colour d2d4d9
 ## Content background
 colour f5f5f1
 
-6. Personal Logo
+6. **Personal Logo**
 
 I tried sketching a few up, but they all looked really ordinary, so I decided not to include a logo.
-
 
 ### Compliant website using HTML and CSS
 
