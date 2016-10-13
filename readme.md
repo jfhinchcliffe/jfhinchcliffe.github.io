@@ -38,6 +38,7 @@ I've opted to avoid Bootstrap or Foundation to get a better grasp of CSS.
 - removes content to display better on iPhone 5 landscape view
 - animated gif
 - appropriately sized image loaded for mobile display
+- Didn't use Bootstrap
 
 ### Demonstrate that you considered usability heuristics
 
