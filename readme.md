@@ -2,6 +2,10 @@
 ## Jason Hinchcliffe
 [Hosted at jfhinchcliffe.github.io](https://jfhinchcliffe.github.io/)
 
+## Todo
+- Make the portfolio button on the about me page more prominent.
+- Remove the big honking header on the projects page.
+
 # Design Documentation
 
 ## Pages
