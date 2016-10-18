@@ -33,6 +33,18 @@ header {
   background-repeat: no-repeat;
 }
 
+.child-page {
+  height: 50vh;
+  position: relative;
+}
+
+.child-page .spacer {
+  height: 1px;
+}
+.child-page .title h3 {
+  display: none;
+}​
+
 .portrait-pic {
   margin-top: 1em;
   border-radius: 100%;
