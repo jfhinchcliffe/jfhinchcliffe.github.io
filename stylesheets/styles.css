@@ -41,9 +41,6 @@ header {
 .child-page .spacer {
   height: 1px;
 }
-.child-page .title h3 {
-  display: none;
-}​
 
 .portrait-pic {
   margin-top: 1em;
@@ -193,21 +190,14 @@ footer .code-by-hand {
 
 
 /* No greater than 900px, no less than 400px */
-@media (max-height:470px) {
+@media screen and (max-height: 440px) {
 
-
-
-    header .spacer {
-      height: 1px;
-    }
-    header .title h3 {
-      display: none;
-  }​
-
-  .contact-strip {
-  font-size: 10px;
-  margin: 0;
+  header .spacer {
+    height: 1px;
   }
+  header .title h3 {
+    display: none;
+  }​
 
 }
 
