@@ -204,6 +204,11 @@ footer .code-by-hand {
       display: none;
   }​
 
+  .contact-strip {
+  font-size: 10px;
+  margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
