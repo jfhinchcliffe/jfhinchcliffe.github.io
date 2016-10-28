@@ -1,5 +1,5 @@
 # Project 1 - Portfolio Site
-## Jason Hinchcliffe - enemy of cheeses
+## Jason Hinchcliffe - devourer of cheeses
 [Hosted at jfhinchcliffe.github.io](https://jfhinchcliffe.github.io/)
 
 ## Todo
